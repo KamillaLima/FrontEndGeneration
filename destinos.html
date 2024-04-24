@@ -4,14 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="destinos.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="destinos.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Os destinos mais visitados de 2023</h1>
-    
+    <div id="primeiraParte">
+        <h1>Traveler</h1>
+        <h2>
+            O maior site de viagens
+        </h2>
+        <h3>Se planejar nunca foi tão fácil</h3>
+
+        <a href="./destinos.html" target="_blank"> <button> Criar roteiro</button> </a>
+    </div>
+    <div id="areaForm">
+        <form>
+            <h3>Tire suas dúvidas! </h3>
+            <label>
+                Nome
+            </label>
+            <br>
+            <input type="text" id="nome" onkeyup="validaNome()" size="60">
+            <div id="txtNome"></div>
+            <br>
+            <label>E-mail</label>
+            <br>
+            <input type="email" id="email" onkeyup="validaEmail()" size="60">
+            <div id="txtEmail"></div>
+            <br>
+            <label>
+                Destino dos sonhos
+            </label>
+            <br>
+            <textarea type="text" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()" maxlength="300"></textarea>
+            <div id="txtAssunto"></div>
+            <br>
+            <button  onclick="enviar()">Enviar </button>
+        </form>
+
+        <img src="https://c.pxhere.com/images/58/3f/52eee990faaee78ccee5dbf5d02b-1637524.jpg!d"
+            srcset="https://c.pxhere.com/images/58/3f/52eee990faaee78ccee5dbf5d02b-1637524.jpg!d"
+            alt="dom, conjunto, cogumelo, mar, Cornualha, agua, nuvem, céu, atmosfera, Afterglow, crepúsculo, laranja, Por do sol, luz solar, Céu vermelho na manhã, Formas de relevo costeiras e oceânicas, Fenômeno atmosférico, Montanhas, nascer do sol, lago, Objeto astronômico, paisagem natural, Cumulus, horizonte, Onda de vento, panorama, calma, promontório, árvore, costa, de praia, alvorecer, ilha, Klippe, Colina, tarde, onda, capa, Trópicos, Rocha, som, baía, Loch, oceano, reflexão, entrada, costa, penhasco, Península, Skerry, período de férias, promontório, maré, Caribe, noite, Banco de imagens In PxHere">
+    </div>
+    <script src="./destinos.js"></script>
 </body>
 
 </html>
