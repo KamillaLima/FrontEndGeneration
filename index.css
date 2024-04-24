@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sedan:ital@0;1&display=swap');
+#primeiraParte {
+    background-image: url("https://c.pxhere.com/photos/dd/af/altitude_clouds_cold_daylight_frost_frozen_height_high-1496351.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92.9%;
+    height: 35rem;
+    background-position: 20% 40%;
+    padding: 3rem;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -1.4rem;
+
+}
+
+h1 {
+    font-style: italic;
+    font-size: 2.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+
+h2 {
+    margin-top: 11rem;
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+    margin-top: -2.8rem;
+}
+
+button {
+    background-color: #D25525;
+    color: white;
+    font-family: "PT Serif", serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 500;
+    border: 0px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+#segundaParte{
+    margin: 3rem;
+    display: flex;
+    text-align: justify;
+    font-family: "PT Serif", serif;
+}
+
+
+h4{
+    font-size: 2.5rem;
+}
+
+.textos{
+    margin-right: 4rem;
+}
+
+
+#terceiraParte{
+    background-image: url("https://c.pxhere.com/photos/a4/95/bay_beach_blue_calm_waters_dawn_dusk_evening_horizon-1486427.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92.9%;
+    height: 30rem;
+    background-position: 20% 40%;
+    padding: 3rem;
+    color: white;
+}
+
+#terceiraParte > h4{
+    font-size: 3rem;
+}
+
+#contatos{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
